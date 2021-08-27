@@ -184,7 +184,7 @@ else {
 console.log(result)
 
   }
-getResult(sehir);
+
 
 
 
