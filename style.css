@@ -63,6 +63,7 @@ top:5rem;
     border: 2px solid lightseagreen;
     border-radius: .4rem;
     font-size: 2rem;
+    cursor: pointer;
 }
 
 .search-button span {
