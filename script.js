@@ -177,7 +177,7 @@ else {
   document.getElementById("min-temp-2").innerText = ``
   document.getElementById("condition-2").innerText = ``
   document.getElementById("avg-humidity-2").innerText = ``
-  document.getElementById("max-wind-1").innerText = ``
+  document.getElementById("max-wind-2").innerText = ``
   document.getElementById("logo-2").src = "https://img.icons8.com/ios/100/000000/question-mark--v1.png"
 
   document.getElementById("avg-temp-3").innerText = ``
@@ -185,7 +185,7 @@ else {
   document.getElementById("min-temp-3").innerText = ``
   document.getElementById("condition-3").innerText = ``
   document.getElementById("avg-humidity-3").innerText = ``
-  document.getElementById("max-wind-1").innerText = ``
+  document.getElementById("max-wind-3").innerText = ``
   document.getElementById("logo-3").src = "https://img.icons8.com/ios/100/000000/question-mark--v1.png"
 
 
