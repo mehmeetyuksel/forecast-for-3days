@@ -1,0 +1,60 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3-Day Forecast</title>
+    
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Kaisei+Tokumin:wght@400;500;700&display=swap');
+        </style>
+    
+    
+
+   
+
+</head>
+<div class="initial-city">
+<body>
+    
+    <div class="container">
+        <div class="logo" id="logo"><img src="./img/logo.png" class="logo-class"></div>
+        <div class="search-area">
+            <input type="text" id="search-bar" class="search-bar" placeholder="Write the city name to see its forecast" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Write the city name to see its forecast'">
+            <button id="search-button" class="search-button"><span>Search It!</span></button>
+            <h1 id="sehir-ismi" class="sehir-ismi"></h1>
+        </div>
+        <div class="results">
+            <div class="gun birinci-gun" id="first-day">
+                <div class="logo-1"><img id="logo-1"></div>
+                <h1 id="date-1"></h1>
+                <h3 id="condition-1"></h3>
+                <h3 id="avg-temp-1"></h3> 
+                <h3 id="max-temp-1"></h3>  
+                <h3 id="min-temp-1"></h3> 
+            </div>
+            <div class="gun ikinci-gun">
+                <div class="logo-2"> <img id="logo-2"></div>
+                <h1 id="date-2"></h1>
+                <h3 id="condition-2"></h3>
+                <h3 id="avg-temp-2"></h3> 
+                <h3 id="max-temp-2"></h3>
+                <h3 id="min-temp-2"></h3> 
+            </div>
+            <div class="gun ucuncu-gun">
+               <div class="logo-3"><img id="logo-3"></div>
+                <h1 id="date-3"></h1>
+                <h3 id="condition-3"></h3>
+                <h3 id="avg-temp-3"></h3> 
+                <h3 id="max-temp-3"></h3>
+                <h3 id="min-temp-3"></h3> 
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+    
+</body>
+</div>
+</html>
