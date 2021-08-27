@@ -16,7 +16,7 @@ searchbutton.addEventListener('click', setButton)
 
 
 
-const url = `http://api.weatherapi.com/v1/`;
+const url = `https://api.weatherapi.com/v1/`;
 const key = `28193ed4b743490692a92524212408`;
 let sehir = "Istanbul";
 
