@@ -4,7 +4,17 @@
 const searchbar = document.getElementById("search-bar");
 const searchbutton = document.getElementById("search-button");
 
-
+searchbar.addEventListener('keypress', function (e) {
+  if (e.key === 'Enter') {
+    if(searchbar.value !="") {
+      getResult(searchbar.value)
+      searchbar.value=""
+      }
+      else {
+        alert("You have to write a city name")
+      }
+  }
+});
 
 const setButton = () => {
 if(searchbar.value !="") {
