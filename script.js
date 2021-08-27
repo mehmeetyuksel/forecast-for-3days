@@ -52,7 +52,7 @@ fetch(query).then(weather => {
 document.getElementById("sehir-ismi").innerText = `${result.location.name}, ${result.location.country}`
 if(result.forecast.forecastday.length != 0) {
 // 1. Gün Detayları
-document.getElementById("date-1").textContent = result.forecast.forecastday[0].date
+document.getElementById("date-1").textContent = result.forecast.forecastday[0].date.split("-").reverse().join("-")
 document.getElementById("avg-temp-1").innerText = `Avarage Temperature: ${result.forecast.forecastday[0].day.avgtemp_c}°C`
 document.getElementById("max-temp-1").innerText = `Maximum Temperature: ${result.forecast.forecastday[0].day.maxtemp_c}°C`
 document.getElementById("min-temp-1").innerText = `Minimum Temperature: ${result.forecast.forecastday[0].day.mintemp_c}°C`
@@ -86,7 +86,7 @@ default:
 
 
 // 2. Gün Detayları
-document.getElementById("date-2").textContent = result.forecast.forecastday[1].date
+document.getElementById("date-2").textContent = result.forecast.forecastday[1].date.split("-").reverse().join("-")
 document.getElementById("avg-temp-2").innerText = `Avarage Temperature: ${result.forecast.forecastday[1].day.avgtemp_c}°C`
 document.getElementById("max-temp-2").innerText = `Maximum Temperature: ${result.forecast.forecastday[1].day.maxtemp_c}°C`
 document.getElementById("min-temp-2").innerText = `Minimum Temperature: ${result.forecast.forecastday[1].day.mintemp_c}°C`
@@ -120,7 +120,7 @@ default:
 
 
 // 3. Gün Detayları
-document.getElementById("date-3").textContent = result.forecast.forecastday[2].date
+document.getElementById("date-3").textContent = result.forecast.forecastday[2].date.split("-").reverse().join("-")
 document.getElementById("avg-temp-3").innerText = `Avarage Temperature: ${result.forecast.forecastday[2].day.avgtemp_c}°C`
 document.getElementById("max-temp-3").innerText = `Maximum Temperature: ${result.forecast.forecastday[2].day.maxtemp_c}°C`
 document.getElementById("min-temp-3").innerText = `Minimum Temperature: ${result.forecast.forecastday[2].day.mintemp_c}°C`
