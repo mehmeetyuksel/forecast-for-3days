@@ -7,12 +7,14 @@ const searchbutton = document.getElementById("search-button");
 
 
 const setButton = () => {
-
+if(searchbar.value !="") {
 getResult(searchbar.value)
 searchbar.value=""
-
 }
-
+else {
+  alert("You have to write a city name")
+}
+}
 
 searchbutton.addEventListener('click', setButton)
 
