@@ -59,7 +59,8 @@ fetch(query).then(weather => {
 
 
  const displayResult = (result) => {
-document.getElementById("sehir-ismi").innerText = `${result.location.name}, ${result.location.country}`
+let time = result.location.localtime.split(" ")[1];	 
+document.getElementById("sehir-ismi").innerText = `${result.location.name}, ${result.location.country}, ${time}`
 if(result.forecast.forecastday.length != 0) {
 // 1. Gün Detayları
 document.getElementById("date-1").textContent = result.forecast.forecastday[0].date.split("-").reverse().join("-")
