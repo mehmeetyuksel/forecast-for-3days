@@ -157,12 +157,4 @@ text-align: center;
     transform: rotateY(360deg);
 }
 
-@media only screen and (max-width: 800px) {
-.results {
-    flex-direction: column;
-    align-items: center;
-}
-.gun {
-    margin-bottom: 1rem;
-}
-}
+
