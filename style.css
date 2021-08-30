@@ -157,7 +157,7 @@ text-align: center;
     transform: rotateY(360deg);
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 760px) {
 .results {
     flex-direction: column;
     align-items: center;
